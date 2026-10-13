@@ -1,48 +1,46 @@
-# UNIO — Espaços para viver histórias
+# UNIO — Construtora e Incorporadora
 
-Landing page em português para a UNIO Construtora e Incorporadora. A direção visual adapta a referência Aroeira Arquitetura: fundo escuro, fotografia em destaque, tipografia com contraste entre sans-serif e serifada em itálico, linhas discretas e composição editorial.
+Landing page em português com a composição da referência Aroeira Arquitetura: marca centralizada no topo, abertura fotográfica, faixa compacta de informações, galeria com uma imagem em destaque, três cartões menores, blocos translúcidos, perguntas frequentes centralizadas e contato com imagem à esquerda.
+
+Por orientação do projeto, toda a tipografia usa Manrope, sem serifa. O conteúdo se limita a títulos, subtítulos, dados dos empreendimentos e contatos. Não há formulário.
 
 ## Executar
 
-Requer Node.js 18 ou superior. Não há dependências para instalar.
+Requer Node.js 18 ou superior, sem dependências de instalação.
 
 ```bash
 npm run dev
 ```
 
-Acesse `http://127.0.0.1:4173`. Para verificar a sintaxe do JavaScript: `npm run check`.
+Acesse http://127.0.0.1:4173. Verificação de sintaxe: npm run check.
 
 ## Estrutura
 
-```text
-site/
-  index.html       # Conteúdo e estrutura da página
-  styles.css       # Design e adaptação para celular
-  script.js        # Menu, detalhes dos projetos e preparação do e-mail
-  assets/          # Fotografias e fontes locais
-scripts/
-  serve.mjs        # Servidor de desenvolvimento sem dependências
-```
+- site/index.html: títulos, subtítulos, galeria e contatos.
+- site/styles.css: layout e escala tipográfica compartilhada.
+- site/script.js: galeria e ano do rodapé.
+- site/assets/: imagens e fontes locais.
+- scripts/serve.mjs: servidor local sem dependências.
 
-Publique o conteúdo da pasta `site/` em qualquer hospedagem estática. Não requer processo de build. Os caminhos relativos também permitem hospedagem em uma subpasta.
+Publique a pasta site/ em uma hospedagem estática. Não há processo de build; os caminhos relativos permitem publicação em subpastas.
+
+## Tipografia
+
+Os tamanhos estão centralizados em variáveis CSS: título principal, títulos de seção, títulos de cartões, texto padrão e legendas. Os pontos de adaptação para celular alteram essa escala de forma conjunta. Não são usadas fontes serifadas ou itálico.
 
 ## Conteúdo e contato
 
-- Telefone e endereço de Rondonópolis: perfil público [@unio_ci](https://www.instagram.com/unio_ci/), consultado em 13/10/2026.
-- E-mail, descrição institucional e empreendimentos: [site oficial da Unio](https://unio-ci.com/).
-- O formulário prepara um e-mail para `geral@unio-ci.com` usando `mailto:`. O visitante revisa e envia no próprio aplicativo de e-mail. Não há backend, armazenamento de dados ou confirmação fictícia de envio.
-- Os detalhes dos empreendimentos estão no objeto `projects`, em `site/script.js`.
-- Valores, disponibilidade de unidades e condições comerciais não são publicados; devem ser confirmados com a empresa.
-- O telefone/endereço do Instagram diferem dos dados no site antigo. Esta versão prioriza os contatos do perfil indicado no pedido.
+- Telefone e endereço: [perfil público @unio_ci](https://www.instagram.com/unio_ci/), consultado em 13/10/2026.
+- E-mail e empreendimentos: [site oficial da Unio](https://unio-ci.com/).
+- As 36 casas são do Vale dos Jacarandás; as quatro opções de planta são do Suprême Villas & Gardens.
+- O contato usa links diretos de telefone, e-mail e Instagram.
+- Valores e disponibilidade devem ser confirmados com a empresa.
+- Os contatos do Instagram foram priorizados onde diferem do site antigo.
 
-## Referências e ativos
+## Referência e materiais
 
-Referência visual: [Aroeira Arquitetura — Site | Landing Page](https://www.behance.net/gallery/234053373/Aroeira-Arquitetura-Site-Landing-Page). A referência orienta a composição; o código foi criado para este projeto.
+Referência visual: [Aroeira Arquitetura — Site | Landing Page](https://www.behance.net/gallery/234053373/Aroeira-Arquitetura-Site-Landing-Page). O layout foi refeito para acompanhar a composição da referência, com as alterações de tipografia e conteúdo solicitadas.
 
-Fotografias e perspectivas foram obtidas dos canais públicos da UNIO e são listadas em [ASSETS.md](ASSETS.md). As perspectivas artísticas são indicadas como ilustrativas. O uso definitivo dos materiais deve seguir os direitos da empresa e dos respectivos autores.
+Origens das imagens e prompt da ambientação: [ASSETS.md](ASSETS.md). A galeria usa imagens públicas dos empreendimentos UNIO. A imagem de ambientação da abertura não representa um empreendimento específico.
 
-Fontes locais: Manrope e Cormorant Garamond, distribuídas sob a SIL Open Font License; licenças em `site/assets/`.
-
-## Recursos
-
-Página responsiva, navegação por âncoras, menu móvel, modais com foco gerenciado pelo elemento nativo `dialog`, perguntas frequentes com `details`, links de telefone e e-mail, suporte a movimento reduzido e imagens WebP locais.
+Manrope é distribuída sob a SIL Open Font License, incluída em site/assets/.

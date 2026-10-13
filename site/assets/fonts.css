@@ -1,12 +1,5 @@
 @font-face {
   font-display: swap;
-  font-family: 'Cormorant Garamond';
-  font-style: italic;
-  font-weight: 500;
-  src: url(font-0.ttf) format('truetype');
-}
-@font-face {
-  font-display: swap;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 400;

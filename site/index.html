@@ -3,142 +3,101 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171917">
-  <meta name="description" content="Conheça a UNIO Construtora e Incorporadora. Empreendimentos em Rondonópolis que unem arquitetura, conforto e qualidade de vida.">
-  <meta property="og:title" content="UNIO — Espaços para viver histórias">
-  <meta property="og:description" content="Arquitetura, conforto e um novo olhar para viver. Conheça os empreendimentos UNIO em Rondonópolis.">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="UNIO Construtora e Incorporadora. Empreendimentos residenciais e comerciais em Rondonópolis, Mato Grosso.">
+  <meta property="og:title" content="UNIO — Construtora e Incorporadora">
+  <meta property="og:description" content="Empreendimentos em Rondonópolis, Mato Grosso.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <title>UNIO — Espaços para viver histórias</title>
+  <title>UNIO — Construtora e Incorporadora</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/ambient-room.webp" as="image" fetchpriority="high">
   <link rel="stylesheet" href="assets/fonts.css">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  <header class="header" id="header">
-    <a class="brand" href="#inicio" aria-label="UNIO — Início">
-      <span class="brand-mark" aria-hidden="true">un</span>
-      <span class="brand-name">UNIO<span>CONSTRUTORA · INCORPORADORA</span></span>
-    </a>
-    <nav class="nav" id="navigation" aria-label="Navegação principal">
-      <a href="#sobre">A Unio</a>
-      <a href="#empreendimentos">Empreendimentos</a>
-      <a href="#essencia">Nossa essência</a>
-    </nav>
-    <a class="header-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
-    <button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="UNIO — Início"><strong>UNIO</strong><span>Construtora e Incorporadora</span></a>
   </header>
-
   <main id="conteudo">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/hero.webp" alt="Ambiente de estar do Suprême Villas & Gardens, com pé-direito alto e materiais naturais" width="1024" height="1600" fetchpriority="high">
-      <div class="hero-shade"></div>
+      <img class="hero-image" src="assets/ambient-room.webp" alt="Imagem de ambientação: sala com madeira natural, sofá claro e iluminação suave" width="1920" height="1080" fetchpriority="high">
       <div class="hero-content">
-        <p class="eyebrow"><span></span> MAIS DO QUE CONSTRUIR. CONECTAR.</p>
-        <h1 id="hero-title"><em>Espaços para viver.</em><br>Histórias para ficar.</h1>
-        <p class="hero-description">Arquitetura, conforto e um novo olhar para a vida.<br class="desktop-break"> Conheça o jeito Unio de pensar o seu próximo lugar.</p>
-        <a class="button button-light" href="#empreendimentos">Encontre o seu lugar <span aria-hidden="true">↗</span></a>
+        <h1 id="hero-title">Construção e incorporação<br>em Rondonópolis.</h1>
+        <p class="subtitle">Empreendimentos residenciais e comerciais.</p>
+        <a class="button" href="#empreendimentos"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m4 15 9-9 5 5-9 9H4v-5Z M11 8l5 5 M16 3l5 5 M4 4h4 M6 2v4"/></svg>Ver empreendimentos</a>
       </div>
-      <div class="hero-bottom">
-        <a class="scroll-link" href="#sobre"><span class="scroll-line" aria-hidden="true"></span> EXPLORE A UNIO</a>
-        <p>RONDONÓPOLIS, MT <span aria-hidden="true">—</span> UM NOVO JEITO DE VIVER</p>
-      </div>
-      <span class="hero-caption">Suprême Villas & Gardens · Perspectiva ilustrativa</span>
     </section>
-
     <div class="page-grid">
-      <section class="about section container" id="sobre" aria-labelledby="about-title">
-        <div class="section-heading reveal">
-          <p class="eyebrow">01 / A UNIO</p>
-          <h2 id="about-title">Mais do que imóveis.<br><em>Um jeito de viver.</em></h2>
-        </div>
-        <div class="about-text reveal">
-          <p class="lead">Um espaço faz sentido quando<br class="desktop-break"> faz parte da sua vida.</p>
-          <p>A Unio nasce desse olhar. Unimos arquitetura, inovação e qualidade construtiva para criar lugares que acolhem novas histórias e acompanham as transformações da cidade.</p>
-          <p>Da escolha da localização ao cuidado com os ambientes, pensamos em quem vai viver ali. Porque construir também é criar possibilidades para o seu futuro.</p>
-          <a class="text-link" href="#essencia">Conheça a nossa essência <span aria-hidden="true">↗</span></a>
-        </div>
+      <section class="about container" id="sobre" aria-labelledby="about-title">
+        <h2 id="about-title">Sobre a Unio</h2>
+        <p class="subtitle">Construtora e incorporadora em Rondonópolis, Mato Grosso.<br>Suprême Villas & Gardens, Essence Business & Living e Vale dos Jacarandás.</p>
       </section>
-
-      <div class="principles container reveal" aria-label="Princípios da Unio">
-        <div><span class="principle-number">01</span><strong>Arquitetura</strong><p>Um olhar além do comum.</p></div>
-        <div><span class="principle-number">02</span><strong>Qualidade</strong><p>Cuidado em cada detalhe.</p></div>
-        <div><span class="principle-number">03</span><strong>Localização</strong><p>Conexão com a cidade.</p></div>
-        <div><span class="principle-number">04</span><strong>Bem-estar</strong><p>A vida como prioridade.</p></div>
-      </div>
-
-      <section class="projects section" id="empreendimentos" aria-labelledby="projects-title">
-        <div class="projects-heading container reveal">
-          <div><p class="eyebrow">02 / EMPREENDIMENTOS</p><h2 id="projects-title">Cada lugar, <em>uma nova história.</em></h2></div>
-          <p>Projetos com personalidades diferentes.<br>O mesmo cuidado com a sua vida.</p>
+      <section class="facts container" aria-label="Informações dos empreendimentos">
+        <div><h3>36 casas</h3><p class="subtitle">Vale dos Jacarandás</p></div>
+        <div><h3>4 plantas</h3><p class="subtitle">Suprême Villas & Gardens</p></div>
+        <div><h3>Business & Living</h3><p class="subtitle">Essence</p></div>
+        <div><h3>Rondonópolis</h3><p class="subtitle">Mato Grosso</p></div>
+      </section>
+      <section class="projects" id="empreendimentos" aria-labelledby="projects-title">
+        <div class="section-intro">
+          <h2 id="projects-title">Empreendimentos Unio</h2>
+          <p class="subtitle">Suprême · Essence · Vale dos Jacarandás</p>
         </div>
-        <div class="project-gallery">
-          <article class="project-card reveal">
-            <img src="assets/hero.webp" alt="Sala de estar do Suprême Villas & Gardens" width="1024" height="1600" loading="lazy">
-            <div class="project-overlay"></div>
-            <span class="project-type">CONDOMÍNIO RESIDENCIAL</span>
-            <div class="project-info"><span class="project-location">Rondonópolis · MT</span><h3>Suprême</h3><p>Villas & Gardens</p><button class="project-button" data-project="supreme" aria-label="Conhecer Suprême Villas & Gardens">Conheça o empreendimento <span aria-hidden="true">↗</span></button></div>
+        <div class="project-gallery" aria-label="Galeria dos empreendimentos">
+          <article class="project-card">
+            <img src="assets/lago.webp" alt="Perspectiva ilustrativa do lago ornamental do Suprême Villas & Gardens" width="1500" height="750" loading="lazy">
+            <button class="project-select" type="button" aria-label="Destacar lago ornamental do Suprême" aria-pressed="false"></button>
+            <div class="project-caption"><h3>Lago ornamental</h3><p class="subtitle">Suprême Villas & Gardens</p><a href="https://unio-ci.com/new-page-2" target="_blank" rel="noopener noreferrer">Ver empreendimento <span aria-hidden="true">↗</span></a></div>
           </article>
-          <article class="project-card reveal">
-            <img class="essence-image" src="assets/essence.webp" alt="Arquitetura da torre Essence Business & Living em Rondonópolis" width="1080" height="1920" loading="lazy">
-            <div class="project-overlay"></div>
-            <span class="project-type">BUSINESS & LIVING</span>
-            <div class="project-info"><span class="project-location">Rondonópolis · MT</span><h3>Essence</h3><p>Um novo olhar para a cidade</p><button class="project-button" data-project="essence" aria-label="Conhecer Essence Business & Living">Conheça o empreendimento <span aria-hidden="true">↗</span></button></div>
+          <article class="project-card">
+            <img class="tower-image" src="assets/essence.webp" alt="Torre Essence Business & Living em Rondonópolis" width="1080" height="1920" loading="lazy">
+            <button class="project-select" type="button" aria-label="Destacar Essence Business & Living" aria-pressed="false"></button>
+            <div class="project-caption"><h3>Essence</h3><p class="subtitle">Business & Living</p><a href="https://unio-ci.com/compre" target="_blank" rel="noopener noreferrer">Ver empreendimento <span aria-hidden="true">↗</span></a></div>
           </article>
-          <article class="project-card reveal">
+          <article class="project-card active">
+            <img src="assets/hero.webp" alt="Perspectiva ilustrativa da sala do Suprême Villas & Gardens" width="1024" height="1600" loading="lazy">
+            <button class="project-select" type="button" aria-label="Destacar Suprême Villas & Gardens" aria-pressed="true"></button>
+            <div class="project-caption"><h3>Suprême</h3><p class="subtitle">Villas & Gardens</p><a href="https://unio-ci.com/new-page-2" target="_blank" rel="noopener noreferrer">Ver empreendimento <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
             <img src="assets/jacarandas.webp" alt="Entrada do condomínio Vale dos Jacarandás" width="1276" height="955" loading="lazy">
-            <div class="project-overlay"></div>
-            <span class="project-type">CONDOMÍNIO HORIZONTAL</span>
-            <div class="project-info"><span class="project-location">Rondonópolis · MT</span><h3>Vale dos<br>Jacarandás</h3><p>Mais espaço para viver bem</p><button class="project-button" data-project="jacarandas" aria-label="Conhecer Vale dos Jacarandás">Conheça o empreendimento <span aria-hidden="true">↗</span></button></div>
+            <button class="project-select" type="button" aria-label="Destacar Vale dos Jacarandás" aria-pressed="false"></button>
+            <div class="project-caption"><h3>Vale dos Jacarandás</h3><p class="subtitle">Condomínio horizontal</p><a href="https://unio-ci.com/compre" target="_blank" rel="noopener noreferrer">Ver empreendimento <span aria-hidden="true">↗</span></a></div>
           </article>
         </div>
-        <p class="gallery-note container">Imagens dos empreendimentos. Perspectivas artísticas são ilustrativas. Consulte a equipe sobre disponibilidade e condições atuais.</p>
+        <div class="gallery-controls" aria-label="Controles da galeria"><button type="button" id="previous-project" aria-label="Empreendimento anterior">←</button><span id="gallery-position" role="status" aria-live="polite">03 / 04</span><button type="button" id="next-project" aria-label="Próximo empreendimento">→</button></div>
       </section>
-
-      <section class="essence section container" id="essencia" aria-labelledby="essence-title">
-        <div class="essence-image-wrap reveal"><img src="assets/lago.webp" alt="Perspectiva ilustrativa do lago ornamental e dos espaços de lazer do Suprême Villas & Gardens" width="1500" height="750" loading="lazy"><span class="image-caption">SUPRÊME VILLAS & GARDENS</span></div>
-        <div class="essence-copy reveal"><p class="eyebrow">03 / NOSSA ESSÊNCIA</p><h2 id="essence-title">Pensar a cidade.<br><em>Cuidar de você.</em></h2><p>O lugar onde vivemos transforma a maneira como nos sentimos. Por isso, cada empreendimento Unio começa com uma pergunta: como podemos fazer a vida acontecer melhor aqui?</p><p>A resposta está em espaços que aproximam, na relação com a natureza e em uma arquitetura que participa da cidade. Um compromisso com o presente, com os olhos no futuro.</p><a class="text-link" href="#contato">Vamos encontrar o seu próximo lugar <span aria-hidden="true">↗</span></a></div>
+      <section class="portfolio container" aria-labelledby="portfolio-title">
+        <div class="portfolio-heading"><h2 id="portfolio-title">Residencial,<br>negócios e lazer.</h2><p class="subtitle">Unio Construtora e Incorporadora</p></div>
+        <a class="portfolio-card" href="https://unio-ci.com/new-page-2" target="_blank" rel="noopener noreferrer"><img src="assets/hero.webp" alt="Sala do Suprême Villas & Gardens" width="1024" height="1600" loading="lazy"><div><h3>Suprême</h3><p class="subtitle">Villas & Gardens</p></div></a>
+        <a class="portfolio-card" href="https://unio-ci.com/compre" target="_blank" rel="noopener noreferrer"><img class="tower-image" src="assets/essence.webp" alt="Arquitetura do Essence Business & Living" width="1080" height="1920" loading="lazy"><div><h3>Essence</h3><p class="subtitle">Business & Living</p></div></a>
+        <a class="portfolio-card" href="https://unio-ci.com/compre" target="_blank" rel="noopener noreferrer"><img src="assets/jacarandas.webp" alt="Portaria do Vale dos Jacarandás" width="1276" height="955" loading="lazy"><div><h3>Jacarandás</h3><p class="subtitle">Condomínio horizontal</p></div></a>
       </section>
-
-      <section class="statement" aria-label="Compromisso Unio">
-        <div class="statement-shade"></div>
-        <div class="statement-content container reveal"><span class="eyebrow">SEU PRÓXIMO CAPÍTULO COMEÇA AQUI</span><p>Não construímos apenas lugares.<br><em>Criamos espaço para a vida.</em></p><a class="button button-light" href="#contato">Quero fazer parte <span aria-hidden="true">↗</span></a></div>
-      </section>
-
-      <section class="faq section container" aria-labelledby="faq-title">
-        <div class="reveal"><p class="eyebrow">04 / SUAS DÚVIDAS</p><h2 id="faq-title">Antes do<br><em>próximo passo.</em></h2><p class="faq-intro">Uma boa escolha começa<br>com uma boa conversa.</p></div>
-        <div class="faq-list reveal">
-          <details><summary>Onde ficam os empreendimentos Unio?<span aria-hidden="true">+</span></summary><p>Os empreendimentos apresentados aqui ficam em Rondonópolis, Mato Grosso. Entre em contato com a equipe para conhecer a localização de cada projeto e as opções que combinam com você.</p></details>
-          <details><summary>Como conhecer um empreendimento?<span aria-hidden="true">+</span></summary><p>Fale com a Unio por telefone ou e-mail e informe o empreendimento de seu interesse. A equipe poderá orientar você sobre apresentações, visitas e disponibilidade.</p></details>
-          <details><summary>Quero comprar ou investir. Por onde começo?<span aria-hidden="true">+</span></summary><p>Conte à equipe o que você procura e qual projeto chamou sua atenção. As opções de unidades, valores, condições de pagamento e informações comerciais devem ser confirmadas diretamente com a Unio.</p></details>
-          <details><summary>A Unio também oferece opções para alugar?<span aria-hidden="true">+</span></summary><p>O site oficial da Unio conta com uma área de locação. <a href="https://unio-ci.com/alugue" target="_blank" rel="noopener noreferrer">Confira a área de aluguel ↗</a> ou entre em contato com a equipe para consultar as opções atuais.</p></details>
-        </div>
-      </section>
-
-      <section class="contact section container" id="contato" aria-labelledby="contact-title">
-        <div class="contact-copy reveal"><p class="eyebrow">05 / VAMOS CONVERSAR</p><h2 id="contact-title">Seu novo lugar<br><em>começa com um olá.</em></h2><p>Para morar, investir ou descobrir possibilidades.<br>Conte para a gente o que você tem em mente.</p><div class="contact-links"><a href="tel:+556634228125"><span>TELEFONE</span>(66) 3422-8125 <span class="contact-arrow" aria-hidden="true">↗</span></a><a href="mailto:geral@unio-ci.com"><span>E-MAIL</span>geral@unio-ci.com <span class="contact-arrow" aria-hidden="true">↗</span></a></div><address>Av. Governador Júlio Campos, 934<br>Rondonópolis · Mato Grosso</address><a class="text-link" href="https://www.instagram.com/unio_ci/" target="_blank" rel="noopener noreferrer">Acompanhe @unio_ci <span aria-hidden="true">↗</span></a></div>
-        <form class="contact-form reveal" id="contact-form">
-          <h3>Vamos dar o primeiro passo?</h3>
-          <div class="field"><label for="name">Como você se chama?</label><input id="name" name="name" autocomplete="name" placeholder="Seu nome" required maxlength="100"></div>
-          <div class="field"><label for="email">Seu e-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required maxlength="200"></div>
-          <div class="field"><label for="interest">Qual lugar chamou sua atenção?</label><select id="interest" name="interest"><option value="Quero conhecer a Unio">Quero conhecer a Unio</option><option value="Suprême Villas & Gardens">Suprême Villas & Gardens</option><option value="Essence Business & Living">Essence Business & Living</option><option value="Vale dos Jacarandás">Vale dos Jacarandás</option><option value="Locação de imóveis">Locação de imóveis</option></select></div>
-          <div class="field"><label for="message">O que você está buscando?</label><textarea id="message" name="message" rows="3" placeholder="Conte um pouco sobre seus planos..." required maxlength="2000"></textarea></div>
-          <button type="submit" class="button button-light">Preparar meu e-mail <span aria-hidden="true">↗</span></button>
-          <p class="form-note">Seu aplicativo de e-mail será aberto com a mensagem pronta para você revisar e enviar. Os dados não são armazenados neste site.</p>
-          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-        </form>
-      </section>
+      <div class="image-sections">
+        <section class="highlight container" aria-labelledby="highlight-title">
+          <h2 id="highlight-title">Suprême<br>Villas & Gardens</h2>
+          <div class="highlight-panels"><div><h3>4 opções de planta</h3><p class="subtitle">Suprême Villas & Gardens</p></div><div><h3>Lago ornamental</h3><p class="subtitle">Suprême Villas & Gardens</p></div></div>
+          <a class="button" href="#contato"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v12H9l-5 4V4Z M8 8h8 M8 12h5"/></svg>Contato</a>
+        </section>
+        <section class="faq container" aria-labelledby="faq-title">
+          <h2 id="faq-title">Perguntas<br>frequentes</h2>
+          <div class="faq-list">
+            <details><summary><span aria-hidden="true">+</span>Onde ficam os empreendimentos?</summary><p class="subtitle">Rondonópolis, Mato Grosso.</p></details>
+            <details><summary><span aria-hidden="true">+</span>Como agendar uma visita?</summary><p class="subtitle"><a href="tel:+556634228125">(66) 3422-8125</a> · <a href="mailto:geral@unio-ci.com">geral@unio-ci.com</a></p></details>
+            <details><summary><span aria-hidden="true">+</span>Onde consultar as unidades?</summary><p class="subtitle"><a href="https://unio-ci.com/compre" target="_blank" rel="noopener noreferrer">Empreendimentos no site oficial ↗</a></p></details>
+            <details><summary><span aria-hidden="true">+</span>Há opções para alugar?</summary><p class="subtitle"><a href="https://unio-ci.com/alugue" target="_blank" rel="noopener noreferrer">Locação no site oficial ↗</a></p></details>
+          </div>
+        </section>
+        <section class="contact container" id="contato" aria-labelledby="contact-title">
+          <img class="contact-image" src="assets/hero.webp" alt="Perspectiva de um ambiente do Suprême Villas & Gardens" width="1024" height="1600" loading="lazy">
+          <div class="contact-content"><h2 id="contact-title">Contato</h2><p class="subtitle"><a href="tel:+556634228125">(66) 3422-8125</a><br><a href="mailto:geral@unio-ci.com">geral@unio-ci.com</a></p><address class="subtitle">Av. Governador Júlio Campos, 934<br>Rondonópolis · Mato Grosso</address><div class="contact-actions"><a class="button" href="tel:+556634228125">Ligar <span aria-hidden="true">↗</span></a><a class="contact-social" href="https://www.instagram.com/unio_ci/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+        </section>
+      </div>
     </div>
   </main>
-
-  <footer class="footer container"><div class="footer-top"><a class="brand" href="#inicio" aria-label="UNIO — Voltar ao início"><span class="brand-mark" aria-hidden="true">un</span><span class="brand-name">UNIO<span>CONSTRUTORA · INCORPORADORA</span></span></a><p>Lugares que acolhem.<br>Histórias que permanecem.</p><a class="back-top" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>© <span id="year">2026</span> UNIO Construtora e Incorporadora.</span><a href="https://www.instagram.com/unio_ci/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><span>Feito para viver novas histórias.</span></div></footer>
-
-  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
-    <button class="dialog-close" aria-label="Fechar detalhes do empreendimento">×</button>
-    <div class="dialog-grid"><img id="dialog-image" alt="" width="800" height="1000"><div class="dialog-copy"><p class="eyebrow" id="dialog-type"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><ul id="dialog-features"></ul><p class="dialog-note">Consulte a equipe para informações atuais de unidades, obras e condições comerciais.</p><a class="button button-light" id="dialog-contact" href="#contato">Tenho interesse <span aria-hidden="true">↗</span></a><a class="text-link" id="dialog-source" target="_blank" rel="noopener noreferrer">Saiba mais no site oficial <span aria-hidden="true">↗</span></a></div></div>
-  </dialog>
+  <footer class="footer"><p>© <span id="year">2026</span> Unio Construtora e Incorporadora. Todos os direitos reservados.</p></footer>
 </body>
 </html>
