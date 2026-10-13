@@ -1,0 +1,11 @@
+{
+  "name": "site-unio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page institucional da UNIO Construtora e Incorporadora",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check site/script.js"
+  },
+  "engines": { "node": ">=18" }
+}
